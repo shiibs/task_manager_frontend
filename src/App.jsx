@@ -7,17 +7,14 @@ import Register from "./components/forms/register/Register";
 import ChangePassword from "./components/forms/password/ChangePassword";
 import CreateTeam from "./components/forms/team/CreateTeam";
 import CreateTask from "./components/forms/task/CreateTask";
+import Dashboard from "./components/Dashboard/Dashboard";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <Login />
-      <Register />
-      <ChangePassword />
-      <CreateTeam />
-      <CreateTask />
+      <Dashboard />
     </>
   );
 }
